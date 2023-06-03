@@ -100,6 +100,7 @@
         --background-color: white;
         --main-padding: 25px;
         --light-gray: hsl(0, 0%, 99%);
+        --middle-gray: hsl(0, 0%, 90%);
         --github-logo-color: hsl(213, 13%, 16%);
 
         @media (prefers-color-scheme: dark) {
@@ -108,6 +109,7 @@
             --hover-color: hsl(0, 0%, 70%);
             --background-color: hsl(0, 0%, 10%);
             --light-gray: hsl(0, 0%, 11%);
+            --middle-gray: hsl(0, 0%, 20%);
             --github-logo-color: white;
         }
     }
@@ -253,7 +255,7 @@
 
     main {
         padding: var(--main-padding);
-        max-width: 900px;
+        max-width: 1034px;
         margin: 0 auto;
     }
 
